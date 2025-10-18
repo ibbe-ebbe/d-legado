@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: 'Josefin Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 0 10px;
+    }
+
+    .logo {
+      font-size: 2em;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .menu {
+      margin-top: 10px;
+      font-size: 1.2em;
+      letter-spacing: 4px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #555;
+      margin: 20px auto;
+      width: 80%;
+    }
+
+    .menu-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 900px;
+      margin: 0 auto 40px;
+    }
+
+    .category {
+      flex: 1 1 400px;
+      margin: 20px;
+      text-align: left;
+    }
+
+    .category h2 {
+      letter-spacing: 2px;
+      font-weight: 600;
+      font-size: 1.3em;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #555;
+      padding-bottom: 5px;
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      margin: 8px 0;
+      font-size: 1em;
+    }
+
+    .item p {
+      margin: 0;
+      font-weight: 300;
+    }
+
+    .desc {
+      font-size: 0.9em;
+      color: #aaa;
+    }
+
+    footer {
+      margin: 40px 0 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+
+    @media(max-width: 700px) {
+      .category {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">D-Legado</div>
+    <div>Since 2015 — CAFE' HOUSE</div>
+    <div class="menu">MENU</div>
+    <hr>
+  </header>
+
+  <div class="menu-section">
+    <div class="category">
+      <h2>BREAKFAST</h2>
+      <div class="item"><p>Dish Name</p><p>$12.90</p></div>
+      <div class="desc">Lorem ipsum dolor sit</div>
+
+      <div class="item"><p>Dish Name</p><p>$18.00</p></div>
+      <div class="desc">Lorem ipsum dolor</div>
+
+      <div class="item"><p>Dish Name</p><p>$26.90</p></div>
+      <div class="desc">Lorem ipsum dolor sit</div>
+    </div>
+
+    <div class="category">
+      <h2>FISH</h2>
+      <div class="item"><p>Dish Name</p><p>$19.99</p></div>
+      <div class="desc">Lorem ipsum</div>
+
+      <div class="item"><p>Dish Name</p><p>$15.00</p></div>
+      <div class="desc">Lorem ipsum dolor sit</div>
+
+      <div class="item"><p>Dish Name</p><p>$24.99</p></div>
+      <div class="desc">Lorem ipsum dolor</div>
+    </div>
+
+    <div class="category">
+      <h2>MEAT</h2>
+      <div class="item"><p>Dish Name</p><p>$19.99</p></div>
+      <div class="desc">Lorem ipsum</div>
+
+      <div class="item"><p>Dish Name</p><p>$15.00</p></div>
+      <div class="desc">Lorem ipsum dolor</div>
+
+      <div class="item"><p>Dish Name</p><p>$24.99</p></div>
+      <div class="desc">Lorem ipsum dolor sit</div>
+    </div>
+
+    <div class="category">
+      <h2>SPECIALTIES</h2>
+      <div class="item"><p>Dish Name</p><p>$12.99</p></div>
+      <div class="desc">Lorem ipsum</div>
+
+      <div class="item"><p>Dish Name</p><p>$45.00</p></div>
+      <div class="desc">Lorem ipsum dolor sit</div>
+
+      <div class="item"><p>Dish Name</p><p>$20.90</p></div>
+      <div class="desc">Lorem ipsum</div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 D-Legado | Follow us @restaurant
+  </footer>
+
+</body>
+</html>
